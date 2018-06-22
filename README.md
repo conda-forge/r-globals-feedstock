@@ -14,14 +14,16 @@ Summary: Identifies global ("unknown" or "free") objects in R expressions by cod
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-globals-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-globals-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-globals-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-globals-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-globals-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-globals-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-globals-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-globals-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-globals-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-globals-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-globals-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-globals-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-globals/badges/version.svg)](https://anaconda.org/conda-forge/r-globals)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-globals/badges/downloads.svg)](https://anaconda.org/conda-forge/r-globals)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--globals-green.svg)](https://anaconda.org/conda-forge/r-globals) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-globals.svg)](https://anaconda.org/conda-forge/r-globals) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-globals.svg)](https://anaconda.org/conda-forge/r-globals) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-globals.svg)](https://anaconda.org/conda-forge/r-globals) |
 
 Installing r-globals
 ====================
