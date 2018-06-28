@@ -1,4 +1,4 @@
-{% set version = "0.12.0" %}
+{% set version = "0.12.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/globals_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/globals/globals_{{ version }}.tar.gz
-  sha256: 6746a200b18ea2efed4b58e6a6334d9361f51407bf36f77e5d8a6b9dd586f66d
+  sha256: 2a72473375bac80a8e882b5e2534f0fc073594a565a09263a1b68396b7edcff9
 
 build:
   number: 0
