@@ -5,7 +5,7 @@ Home: https://github.com/HenrikBengtsson/globals
 
 Package license: LGPL-2.1
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Identifies global ("unknown" or "free") objects in R expressions by code inspection using various strategies, e.g. conservative or liberal. The objective of this package is to make it as simple as possible to identify global objects for the purpose of exporting them in distributed compute environments.
 
