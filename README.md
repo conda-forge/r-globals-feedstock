@@ -3,7 +3,7 @@ About r-globals
 
 Home: https://github.com/HenrikBengtsson/globals
 
-Package license: LGPL-2.1
+Package license: LGPL-2.1-or-later
 
 Feedstock license: BSD-3-Clause
 
