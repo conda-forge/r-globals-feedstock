@@ -1,4 +1,4 @@
-{% set version = '0.12.5' %}
+{% set version = "0.13.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/globals_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/globals/globals_{{ version }}.tar.gz
-  sha256: 1519a7668b4b549c081f60a5f6b71d8d1dc8833f618125f6c0e4caf8b48a48c1
+  sha256: e3f508fcc995c4373b71dc10e6ef498d6e6066d905559cbcf498a3d1563b103f
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,14 +37,11 @@ test:
 
 about:
   home: https://github.com/HenrikBengtsson/globals
-  license: LGPL-2.1
-  summary: Identifies global ("unknown" or "free") objects in R expressions by code inspection
-    using various strategies, e.g. conservative or liberal. The objective of this package
-    is to make it as simple as possible to identify global objects for the purpose of
-    exporting them in distributed compute environments.
+  license: LGPL-2.1-or-later
+  summary: Identifies global ("unknown" or "free") objects in R expressions by code inspection using various strategies, e.g. conservative or liberal. The objective of this package is to make it as simple as possible to identify global objects for the purpose of exporting them in distributed compute environments.
   license_family: LGPL
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2.1'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2.1
 
 extra:
   recipe-maintainers:
