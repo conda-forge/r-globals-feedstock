@@ -1,6 +1,5 @@
 {% set version = "0.16.3" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-globals
@@ -13,8 +12,7 @@ source:
   sha256: d73ced94248d8b81d29d774bdfc41496274d7da683a5d84440aed6a501a18c5b
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
